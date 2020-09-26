@@ -1,4 +1,4 @@
-package com.exempe.demo.entity;
+package com.exempe.demo.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "user")
+@Table(name = "USER")
 public class User {
 
     @Id
